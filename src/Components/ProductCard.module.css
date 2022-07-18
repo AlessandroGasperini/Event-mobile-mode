@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    gap: 1em;
+}
+
+.lineContainer {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.109);
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 1em;
+    font-size: 14px;
+    font-weight: bold;
+    max-height: 40px;
+}
+
+.date p {
+    margin: 0 .5em;
+}
+
+.info span {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.info p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: .5em 0 0 0;
+}
+
+.price {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.price h4 {
+    font-size: 17px;
+}

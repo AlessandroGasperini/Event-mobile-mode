@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;1,200;1,400&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Sansita:ital,wght@1,700&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+
+body {
+  background-color: #231F42;
+  color: white;
+  margin: 0;
+  padding: 2em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+h1 {
+  color: #F56B9A;
+  font-size: 32px;
+  padding: 18px;
+  text-align: center;
+  font-family: 'Sansita', sans-serif;
+}
+
+h2 {
+  color: #F56B9A;
+  font-size: 35px;
+  font-family: 'Sansita', sans-serif;
+}
+
+h3 {
+  font-size: 22px;
+  color: white;
+  text-shadow: 1px 1px #F56B9A;
+}
+
+h4 {
+  color: #37AEAB;
+  font-size: 19px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.cartEmpty {
+  display: block;
+  color: #37AEAB;
+}
+
+.cartNotEmpty {
+  display: none;
+}
+

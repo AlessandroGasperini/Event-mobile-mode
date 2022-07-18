@@ -1,0 +1,71 @@
+
+.container {
+    text-align: center;
+}
+
+
+.container p {
+    font-style: italic;
+    font-size: 19px;
+}
+
+.info p {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.amountContainer {
+    border: 2px solid #F56B9A;
+    width: 80vw;
+    margin: 8vh auto;
+}
+
+.amountContainer h3 {
+    padding: 1rem;
+    font-size: 32px;
+
+}
+
+.adjustAmount {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    border-top: 1px solid #F56B9A;
+}
+
+.adjustAmount button {
+    background-color: transparent;
+    font-size: 3rem;
+    color: white;
+    border: none;
+}
+
+.info {
+    margin-top: 7vh;
+}
+
+.btn {
+    background: #37AEAB;
+    color: inherit;
+    border: none;
+    border-radius: 3px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    width: 85vw;
+    height: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 7vh;
+}
+
+.adjustAmount p {
+    margin: 0;
+    border-left: 1px solid #F56B9A;
+    border-right: 1px solid #F56B9A;
+    font-size: 28px;
+    padding-top: 1vh;
+    font-style: inherit;
+
+}
